@@ -1,0 +1,16 @@
+{
+    "jsonVersion": 1,
+    "name": "BM.BMPM.WebAPI V0.1",
+    "description": "Implementation for BioManager-PackageManager WebAPI.",
+    "keywords": "BMPM, API",
+    "author": "David Hein",
+    "version": "0.1",
+    "type": "LibPlugin",
+    "requiredBMVersion": "0.1",
+    "dependencies":[
+    {
+        "name":"BM.BMPM.API_V0.1",
+        "version":"0.1"
+    }
+    ]
+}
