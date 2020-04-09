@@ -8,7 +8,7 @@ class BMPM_WebAPI_V0_1 implements iBMPM_API_V0_1 {
         // Use file_get_contents to GET the URL in question
         $contents = file_get_contents($url);
         // Return. If $contents == FALSE, something went wrong
-        return $contents
+        return $contents;
     }
     
     public function getPackageId(string $name, string $author) {
