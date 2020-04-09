@@ -1,5 +1,6 @@
 {
     "jsonVersion": 1,
+    "id": "1ca939a310fe512283c716b5db665e8f",
     "name": "BM.BMPM.WebAPI V0.1",
     "description": "Implementation for BioManager-PackageManager WebAPI.",
     "keywords": "BMPM, API",
