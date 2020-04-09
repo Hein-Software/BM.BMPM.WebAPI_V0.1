@@ -15,7 +15,7 @@ class BMPM_WebAPI_V0_1 implements iBMPM_API_V0_1 {
         $url = $this->apiUrl . 'getPackageId.php?name=' . urlencode($name) . '&author=' . urlencode($author);
         $contents = $this->sendGetRequest($url);
         if ($contents !== false) {
-            return $contents;
+            return json_decode($contents)->{'id'};
         } else {
             return '';
         }
